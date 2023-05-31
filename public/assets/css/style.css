@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari&display=swap');
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Anek Devanagari', sans-serif;
+}
+a{
+    text-decoration: none !important;
+}
+
+/* Pages for users template*/
+#wrapper{
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+    background-size: cover;
+    min-height: 100vh;
+}
+.mainChild{
+    width: 33%;
+}
+
+.buttonImg{
+    margin : 1em 0em 1em 0em;
+}
+
+#main p {
+    color:white;
+    font-size: 1.3em;
+    margin-top: 1em;
+}
+#main img {
+    width: 100%;
+}
+#main i {
+    color:white;
+    font-size: 1.3em;
+}
+
+#socials a {
+    width:15%;
+}
+
+/* PAGES FOR ADMIN TEMPLATE*/
+
+#dashboard{
+    height: 100vh;
+    background-color: rgba(17,24,39);
+    position: sticky;
+    top:0;
+}
+
+#dashboard p {
+    font-size: 2em;
+    width: 80%;
+}
+
+#dashboard i {
+    width:20%;
+    font-size: 2em;
+    color:white;
+}
+#dashboardMenu{
+    padding: 0px;
+}
+#dashboardMenu li{
+    width:100%;
+    margin:1.5em 0em 1.5em 0em;
+}
+#dashboardMenu a{
+    font-size: 1.5em;
+    color:white;
+    width:100%;
+    padding: 0.5em 0em 0.5em 1em;
+}
+
+#dashboardMenu li:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+
+#panelHeader{
+    position: sticky;
+    top:0;
+    border-bottom: 5px solid rgba(79,70,229);
+    background-color: white;
+    z-index: 1;
+}
+#panelHeader h1{
+    font-size: 2em;
+    font-weight: 700;
+}
+#adminInicial{
+    width:30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: rgba(79,70,229);
+    color:white;
+}
+
+#adminInicial p {
+    font-size: 1.5em;
+    width: 100%;
+}
+
+#adminMain{
+    background-color: #f0f0f5;
+    margin: 0px;
+}
+
+.champImg {
+    width:30%;
+}
+#champTable tr td,#userTable tr td{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+#champTable tr,#userTable tr{
+    border-bottom: 1px solid black;
+}
+
+/* CLASSIC.BLADE.PHP */
+
+#dugme {
+    width: 100%;
+}
+#dugme img {
+    width: 6em;
+    height: 4em;
+}
+#dugme p {
+    width: 60%;
+}
+
